@@ -1,0 +1,309 @@
+
+
+
+:root{
+    --text-color:rgb(66, 150, 247);
+    --my-color:rgb(206, 25, 25);
+    --body-color:#f0f2f5;
+    --cc-color:#448cf7;
+    --haha-color:#f0f2f5;
+    --zahgz-color:#f0f2f5;
+    --haxxb-color:#f0f2f5;
+    --whduhb-color:#f0f2f5;
+}
+
+
+*{
+    
+    text-transform: capitalize;
+   font-family: Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background:var(--body-color);  
+    height: 900px;
+}
+form{
+    background-color: hsl(0, 0%, 100%);
+    width: 400px;
+    height: 400px;
+    border-radius: 9px;
+    box-shadow: 5px 5px 5px 0.4px #0a0a0a9a;
+    margin-top: 50px;
+    margin-left:750px;
+    
+
+
+}
+
+h1{
+    
+   color: var(--text-color);
+   margin-top: px;
+   font-size: 60px;
+   margin-top: 50px;
+   color: var( --cc-color);
+   font-weight: 50px;
+   margin-left: 100px;
+
+}
+
+
+.headding{
+    margin: 0px;
+    
+}
+
+
+
+
+
+h2{
+    color:var(--text-color) ;
+    font-size: 30px;
+}
+
+
+ p {
+    margin-left: 100px;
+  
+    font-size: 14px;
+    margin-top: 0px;
+}
+
+
+
+.thep{
+    text-align: left;
+    display: flex;
+}
+
+
+
+
+.h11{
+    margin-right: 50px;
+    margin-bottom: 50spx;
+   
+}
+
+
+
+
+
+.tendangnhap1{
+    margin-left: 40px;
+}
+.tendangnhap{
+    width: 300px;
+    height: 35px;
+    outline: none;
+   
+    background-color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-left: 10px;
+    font-size: 17px;
+    border-left:hsl(0, 0%, 100%);
+    border-top: hsl(0, 0%, 100%);
+    border-right:hsl(0, 0%, 100%);
+    border-bottom-color:rgb(252, 200, 32);
+    color: black;
+    transition: all linear 0.3s;
+}
+
+
+.tendangnhap:hover{
+    font-size: 18px;
+    border-color: rgb(136, 250, 29);
+}
+
+.chantrang{
+    background-color: antiquewhite;
+    position:  relative;
+    margin-top: 280px;
+    height: 90px;
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+}  
+
+
+.chantrang p{
+  
+   color: black;
+
+}
+.form .dauvao{
+   padding: 20px 0;
+  text-align: center;
+} 
+
+
+.form .password2{
+    position: relative;
+}
+
+.form .password2 input{
+    padding-right: 0px;
+}
+
+
+.form .password2 i{
+    position: absolute;
+    top: 50%;
+    right: 60px;
+    transform: translateY(-50%);
+    color: rgb(156, 155, 155);
+    cursor: pointer;
+}
+
+
+
+.password2{
+    margin-left: 40px;
+}
+
+.matkhau{
+    width: 300px;
+    height: 35px;
+    outline: none;
+   
+    background-color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-left: 10px;
+    font-size: 17px;
+    border-left:hsl(0, 20%, 96%);
+    border-top: hsl(0, 0%, 100%);
+    border-right:hsl(0, 23%, 97%);
+    border-bottom-color:rgb(255, 204, 36);
+    color: rgb(17, 15, 14);
+    transition: all linear 0.3s;
+}
+
+.matkhau:hover{
+    border-color: chartreuse;
+    font-size: 18px;
+   
+}
+
+
+/* ô nhập lại mật khẩu */
+
+.password1{
+    margin-left: 40px;
+}
+
+
+.nhaplaimatkhau{
+    width: 300px;
+    height: 35px;
+    outline: none;
+   
+    background-color: hsl(0, 0%, 100%);
+    text-align: left;
+    padding-left: 10px;
+    font-size: 17px;
+    border-left:hsl(0, 20%, 96%);
+    border-top: hsl(0, 0%, 100%);
+    border-right:hsl(0, 23%, 97%);
+    border-bottom-color:rgb(255, 204, 36);
+    color: rgb(17, 15, 14);
+    transition: all linear 0.3s;
+}
+
+
+.nhaplaimatkhau:hover{
+    border-color: chartreuse;
+    font-size: 18px;
+}
+
+
+
+
+
+ 
+ 
+ .form .password1{
+     position: relative;
+ }
+ 
+ .form .password1 input{
+     padding-right: 0px;
+ }
+ 
+ 
+ .form .password1 i{
+     position: absolute;
+     top: 50%;
+     right: 60px;
+     transform: translateY(-50%);
+     color: rgb(156, 155, 155);
+     cursor: pointer;
+ }
+ 
+ 
+
+ /* nút đănng kí  */
+
+ .dangki{
+
+    margin-left: 85px;
+}
+
+button{
+    padding: 13px 80px;
+    background-color     : #4296f7;
+    outline: none;
+    border-color:transparent;
+    border: none;
+    
+    font-size: 17px;
+    font-weight: bold;
+    border-radius: 4px;
+    transition:  .0.2s;
+    color: #f0f2f5;
+}
+button:hover{
+    background-color: right;
+}
+
+
+
+p{
+    margin-top: 10px;
+    text-align: center;
+    margin-right: 100px;
+}
+
+
+/* nút đăng nhập */
+
+.dangnhap{
+    padding: 8px;
+    background-color: #448cf7;
+    display: block;
+    width: 250px;
+    margin-left:67px ;
+    border-radius: 4px;
+    text-decoration: none;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    transition: all  linear 0.2s;
+   font-weight: bold;
+    
+}
+
+.dangnhap:hover{
+    background-color: #1877f2 ;
+}
+
+
+
+    
+
+
+
+
